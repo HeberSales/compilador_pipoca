@@ -1,5 +1,7 @@
-int main()
-{
-	int a;
-	a = 1;
-}
+
+	int main()
+		{
+			char c = 'h';
+			string nome = "heber";
+			
+		}
