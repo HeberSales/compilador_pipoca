@@ -1,7 +1,11 @@
-
 	int main()
 		{
-			char c = 'h';
-			string nome = "heber";
-			
-		}
+
+		string name1 = "Heber";
+		string name2 = " e Davi";
+
+		string time; 
+		time = name1 + name2;
+
+		println(time);
+	}
