@@ -749,7 +749,7 @@ DECLARA_VAR : TIPO TK_ID
 
 
 				if ($1.isVector){
-					if ($1.tipo != $4.tipo) error += "\033[1;31mError\033[0m - \033[1;30mLinha " + linha_atual + ":\033[0m\033[1;39m Não é permirtido tipos diferentes na inicialização do vetor (" + $2.label + ")\n";
+					if ($1.tipo != $4.tipo) error += "\033[1;31mError\033[0m - \033[1;30mLinha " + linha_atual + ":\033[0m\033[1;39m Não é permitido tipos diferentes na inicialização do vetor (" + $2.label + ")\n";
 
 					cout << "Num_elementos_iniciados = " + std::to_string(num_elementos_iniciados) + " sizeVector = " + std::to_string($1.sizeVector) << endl;
 

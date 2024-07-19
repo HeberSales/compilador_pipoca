@@ -1,11 +1,9 @@
-	int main()
-		{
+int main()
+	{
+		float raiz;
 
-		string name1 = "Heber";
-		string name2 = " e Davi";
+		raiz = sqrt(9);
 
-		string time; 
-		time = name1 + name2;
-
-		println(time);
+		print("Valor da raiz = ");
+		println(raiz);
 	}

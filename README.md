@@ -36,9 +36,9 @@ int main()
 
 
 
-## Exemplos de testes
+# Exemplos de testes
 
-### Sprint 2
+## Sprint 2
 
 #### Global
 ```
@@ -168,5 +168,94 @@ int main()
 		time = name1 + name2;
 
 		println(time);
+	}
+```
+## Sprint 3
+
+## inicialização de Variáveis
+```
+int main(){
+
+		int a = 1;
+		int b = 2;
+		int c;
+		return c = a + b;
+	}
+```
+
+#### Raiz Quadrada
+```
+int main()
+	{
+		float raiz;
+
+		raiz = sqrt(9);
+
+		print("Valor da raiz = ");
+		println(raiz);
+	}
+```
+#### Função Potencia
+```
+int main(){
+
+	float pot; 
+	pot = pow(3, 2);
+	
+}
+```
+
+#### Função
+```
+
+    func int soma (int a, int num, string msg){
+		println(msg);
+		return num + a;
+	}
+	
+	func void status(){
+		println("OK");
+	}
+	
+	int main()
+	{
+		status();
+	}      
+```
+
+#### Operador Ternário
+```
+int main(){
+
+	num := 15
+	num > 10 ? println("true") : println("false");
+	
+}
+```
+
+#### Controle de Erros
+
+## não aceita repetir declaração
+```
+int main(){
+		int a;
+		float a;
+	}
+```
+
+## não aceita dividir por zero
+```
+int main(){
+		int a = 1;
+		a = a/0;
+	}
+```
+#### Operadores 
+
+```
+int main()
+	{
+		int x = 10;
+		x++;
 	}
 ```
