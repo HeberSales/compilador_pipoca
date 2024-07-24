@@ -179,30 +179,8 @@ int main(){
 		int a = 1;
 		int b = 2;
 		int c;
-		return c = a + b;
+		c = a + b;
 	}
-```
-
-#### Raiz Quadrada
-```
-int main()
-	{
-		float raiz;
-
-		raiz = sqrt(9);
-
-		print("Valor da raiz = ");
-		println(raiz);
-	}
-```
-#### Função Potencia
-```
-int main(){
-
-	float pot; 
-	pot = pow(3, 2);
-	
-}
 ```
 
 #### Função
@@ -250,7 +228,8 @@ int main(){
 		a = a/0;
 	}
 ```
-#### Operadores 
+
+#### Operadores Unario
 
 ```
 int main()
@@ -258,4 +237,36 @@ int main()
 		int x = 10;
 		x++;
 	}
+```
+
+#### Operadores Compostos
+
+```
+int main()
+	{
+		int x = 10;
+		x != 10;
+	}
+```
+
+#### Raiz Quadrada
+```
+int main()
+	{
+		float raiz;
+
+		raiz = sqrt(9);
+
+		print("Valor da raiz = ");
+		println(raiz);
+	}
+```
+#### Função Potencia
+```
+int main(){
+
+	float pot; 
+	pot = pow(3, 2);
+	
+}
 ```
